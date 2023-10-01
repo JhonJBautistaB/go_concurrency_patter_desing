@@ -19,7 +19,7 @@ func ProccesPayment(p Payment) {
 type BankPayment struct{}
 
 func (BankPayment) Pay(bankAccount int) {
-	fmt.Printf("Paying using bankAccount %d\n", bankAccount)
+	fmt.Printf("Paymen using bankAccount %d\n", bankAccount)
 }
 
 type BankPaymentAdapter struct {
